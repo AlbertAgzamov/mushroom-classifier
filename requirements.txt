@@ -1,0 +1,8 @@
+numpy
+pandas
+seaborn
+matplotlib
+statsmodels
+scikit-learn
+category_encoders
+-e .
