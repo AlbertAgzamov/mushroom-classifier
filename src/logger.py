@@ -13,7 +13,7 @@ logging.basicConfig(
     filename=LOG_FILE_PATH,
     encoding='utf-8',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(lineno)s - %(message)s',
+    format='%(asctime)s - level: %(levelname)s - line: %(lineno)s - message: %(message)s',
     filemode='w'
     )
 
